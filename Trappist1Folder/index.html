@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExoplanetExplorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+function toggleDropdown() {
+    document.getElementById("dropdownMenu").classList.toggle("show");
+}
+
+
+window.addEventListener("click", function(e) {
+    if (!e.target.closest(".more-dropdown")) {
+        document.getElementById("dropdownMenu").classList.remove("show");
+    }
+});
+</script>
+
+<body>
+
+  <nav>
+  <a href="index.html" class="logo">ExoplanetExplorer</a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="trappist1b.html">TRAPPIST - 1b</a>
+      <a href="trappist1c.html">TRAPPIST - 1c</a>
+      <a href="trappist1d.html">TRAPPIST - 1d</a>
+    </div>
+    <div class="more-dropdown">
+      <button onclick="toggleDropdown()">More...</button>
+      <div class="dropdown-menu" id="dropdownMenu">
+        <a href="trappist1e.html">TRAPPIST - 1e</a>
+        <a href="trappist1f.html">TRAPPIST - 1f</a>
+        <a href="trappist1g.html">TRAPPIST - 1g</a>
+        <a href="trappist1h.html">TRAPPIST - 1h</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore the<br>TRAPPIST - 1 System</h1>
+
+            <p>
+                Explore the stellar system known as TRAPPIST - 1, complete with 7 exoplanets 
+                orbiting a signal red dwarf star 40 light years away from earth.
+            </p>
+
+            <p>
+                Explore TRAPPISTS B - H each with it's own unique composition and quirks 
+                for you to read
+            </p>
+
+            <a href="#planets">
+                <button class="btn-primary">Start</button>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ===== ROW 1: Speculoos-1, 1b, 1c ===== -->
+  <section class="planet-section">
+    <div class="planet-card">
+      <h3>SPECULOOS - 1</h3>
+      <img src="images/speculoos-1.jpg" alt="Speculoos-1">
+      <p>The center of the system is an ultra-cool red dwarf star, only slightly larger
+        than Jupiter and roughly 9% of our Sun's mass. It is cool, faint, and emits
+        radiation mostly in the infrared</p>
+      <a href="speculoos.html"><button>Learn More.</button></a>
+    </div>
+
+    <div class="planet-card">
+      <h3>TRAPPIST - 1b</h3>
+      <img src="images/trappist-1b.jpg" alt="TRAPPIST-1b">
+      <p>The innermost planet orbits extremely close to the star, completing a full
+        orbit in just 1.5 days. Extremely hot and likely tidally locked, observations
+        suggest it is a bare, atmosphere-free rocky world.</p>
+      <a href="trappist1b.html"><button>Learn More.</button></a>
+    </div>
+
+    <div class="planet-card">
+      <h3>TRAPPIST - 1c</h3>
+      <img src="images/trappist-1c.jpg" alt="TRAPPIST-1c">
+      <p>Receiving similar radiation to Venus, TRAPPIST-1c is a hot world orbiting
+        its star in 2.4 days. Recent observations indicate it likely lacks a
+        thick, heavy atmosphere, leaving it warm and dry.</p>
+      <a href="trappist1c.html"><button>Learn More.</button></a>
+    </div>
+  </section>
+
+  <!-- ===== ROW 2: 1d, 1e, 1f ===== -->
+  <section class="planet-section">
+    <div class="planet-card">
+      <h3>TRAPPIST - 1d</h3>
+      <img src="images/trappist-1d.jpg" alt="TRAPPIST-1d">
+      <p>Located near the inner edge of the habitable zone, TRAPPIST-1d is the
+        lightest planet in the system. It receives about the same energy from
+        its star as Earth does from the Sun.</p>
+      <a href="trappist1d.html"><button>Learn More.</button></a>
+    </div>
+
+    <div class="planet-card">
+      <h3>TRAPPIST - 1e</h3>
+      <img src="images/trappist-1e.jpg" alt="TRAPPIST-1e">
+      <p>Often considered the most Earth-like of the group, TRAPPIST-1e sits firmly
+        in the middle of the habitable zone. It has a similar size, density,
+        and surface gravity to Earth, making it a prime target for studying
+        surface water potential.</p>
+      <a href="trappist1e.html"><button>Learn More.</button></a>
+    </div>
+
+    <div class="planet-card">
+      <h3>TRAPPIST - 1f</h3>
+      <img src="images/trappist-1f.jpg" alt="TRAPPIST-1f">
+      <p>Orbiting in the outer region of the habitable zone, TRAPPIST-1f takes
+        about 9 Earth days to complete an orbit. It is cooler than Earth and
+        could potentially support liquid water under the right atmospheric
+        conditions.</p>
+      <a href="trappist1f.html"><button>Learn More.</button></a>
+    </div>
+  </section>
+
+  <!-- ===== ROW 3: 1g, 1h ===== -->
+  <section class="planet-section">
+    <div class="planet-card">
+      <h3>TRAPPIST - 1g</h3>
+      <img src="images/trappist-1g.jpg" alt="TRAPPIST-1g">
+      <p>As the largest planet in the system, TRAPPIST-1g lies near the outer edge
+        of the habitable zone. Cold and tidally locked, it receives less light
+        than Mars does in our solar system.</p>
+      <a href="trappist1g.html"><button>Learn More.</button></a>
+    </div>
+
+    <div class="planet-card">
+      <h3>TRAPPIST - 1h</h3>
+      <img src="images/trappist-1h.jpg" alt="TRAPPIST-1h">
+      <p>The outermost world orbits at the frozen fringes of the system, taking
+        nearly 19 days per orbit. Far from its star's heat, TRAPPIST-1h is
+        likely an icy world covered in global glaciers.</p>
+      <a href="trappist1h.html"><button>Learn More.</button></a>
+    </div>
+  </section>
+
+
+   <section class="guide" id="guide">
+
+    <h2>Guide to the Galaxy</h2>
+
+    <div class="guide-content">
+
+        <div class="guide-text">
+
+            <p>
+                To explore the TRAPPIST-1 system, click on a
+                button underneath the exoplanet you would
+                like to explore. Each exoplanet page will
+                provide information about its environment
+                and characteristics.
+            </p>
+
+            <p>
+                On the system page, click the dropbox to
+                select which exoplanet you would like to
+                explore.
+            </p>
+
+            <p>
+                Each page will tell you about the exoplanets:
+            </p>
+
+            <ul>
+                <li>Year Duration</li>
+                <li>Day Duration</li>
+                <li>Temperature</li>
+                <li>Wind Speed</li>
+                <li>Gravity</li>
+                <li>Radius</li>
+                <li>Diameter</li>
+                <li>Mass</li>
+                <li>Atmosphere</li>
+                <li>Element Composition</li>
+                <li>Presence of Water</li>
+                <li>Planet Type</li>
+                <li>Habitability</li>
+            </ul>
+
+            <button>Get Started</button>
+
+        </div>
+
+
+        <div class="guide-image">
+
+            <img src="images/trappist-system.jpg"
+                 alt="TRAPPIST-1 system diagram">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <footer>
+        <div class="footer-left">ExoplanetExplorer</div>
+        <div class="footer-center">
+            <a href="#">Donate</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="footer-right">Publication: 27/7/27

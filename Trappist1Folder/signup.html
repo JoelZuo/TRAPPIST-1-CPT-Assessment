@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up - ExoplanetExplorer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="account-page">
+
+   
+    <div class="account-panel">
+      <a href="index.html" class="logo">ExoplanetExplorer</a>
+      <h1>Sign Up</h1>
+
+      <form id="signupForm" onsubmit="signup(event)">
+        <label for="signupUsername">Username:</label>
+        <input type="text" id="signupUsername" required>
+
+        <label for="signupPassword">Password</label>
+        <input type="password" id="signupPassword" required>
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" required>
+
+        <div>
+          <button type="submit">Submit</button>
+          <button type="button" onclick="window.location.href='login.html'">Cancel</button>
+        </div>
+      </form>
+
+      <p id="signupMessage"></p>
+
+      <p class="account-description">Have you ever wondered what it would be like to explore
+        a world beyond our Solar System? Discover TRAPPIST-1, home to seven fascinating
+        Earth-sized exoplanets. Explore their unique environments, atmospheres,
+        temperatures, and potential for life, and uncover what makes this distant
+        planetary system truly extraordinary.</p>
+    </div>
+
+    
+    <div class="account-image">
+      <div class="account-title">
+        <h1>Seven Worlds,<br>One Star</h1>
+        <a href="index.html">Explore the Trappist - 1 System</a>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

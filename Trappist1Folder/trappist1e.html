@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAPPIST-1b - ExoplanetExplorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-planet="TRAPPIST-1e">
+
+    <nav>
+        <a href="index.html" class="logo">ExoplanetExplorer</a>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="trappist-1b.html">TRAPPIST - 1b</a>
+                <a href="trappist-1c.html">TRAPPIST - 1c</a>
+                <a href="trappist-1d.html">TRAPPIST - 1d</a>
+            </div>
+            <div class="more-dropdown">
+                <button class="more-btn">More...</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="planet-hero" style="background-image: url('images/trappist-1e-description.png');">
+        <h1 class="planet-name-overlay">TRAPPIST - 1E</h1>
+    </section>
+
+    <section class="planet-intro">
+        <div class="description-block">
+            <h2>Description</h2>
+            <p>
+                TRAPPIST-1e is widely considered the most promising candidate for habitability in the system. Almost identical to Earth in size and density, it resides comfortably inside the circumstellar habitable zone. With moderate surface temperatures and the potential to retain liquid surface water and a stable atmosphere, it remains a primary target for exoplanet life searches.
+            </p>
+        </div>
+        <div class="temp-block">
+            <img src="images/trappist-1b-description.png" alt="TRAPPIST-1b Surface View">
+        </div>
+    </section>
+
+    <section class="stats-grid">
+        <div class="stat-card">
+            <img src="images/icon-year-length.png" alt="Year Length" class="stat-icon">
+            <h3 class="stat-label">Year Length</h3>
+            <p class="stat-value" id="yearLength">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-day-length.png" alt="Day Length" class="stat-icon">
+            <h3 class="stat-label">Day Length</h3>
+            <p class="stat-value" id="dayLength">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-temperature.png" alt="Temperature" class="stat-icon">
+            <h3 class="stat-label">Temperature</h3>
+            <p class="stat-value" id="temperature">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-wind-speed.png" alt="Wind Speed" class="stat-icon">
+            <h3 class="stat-label">Wind-speed</h3>
+            <p class="stat-value" id="windSpeed">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-gravity.png" alt="Gravity" class="stat-icon">
+            <h3 class="stat-label">Gravity (Earths)</h3>
+            <p class="stat-value" id="gravity">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-radios.png" alt="Radius" class="stat-icon">
+            <h3 class="stat-label">Radius (Earths)</h3>
+            <p class="stat-value" id="radius">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-diameter.png" alt="Diameter" class="stat-icon">
+            <h3 class="stat-label">Diameter (km)</h3>
+            <p class="stat-value" id="diameter">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-mass.png" alt="Mass" class="stat-icon">
+            <h3 class="stat-label">Mass (Earths)</h3>
+            <p class="stat-value" id="mass">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-atmosphere.png" alt="Atmosphere" class="stat-icon">
+            <h3 class="stat-label">Atmosphere</h3>
+            <p class="stat-value" id="atmosphere">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-composition.png" alt="Composition" class="stat-icon">
+            <h3 class="stat-label">Composition</h3>
+            <p class="stat-value" id="composition">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-water.png" alt="Water Presence" class="stat-icon">
+            <h3 class="stat-label">Water Presence</h3>
+            <p class="stat-value" id="waterPresence">--</p>
+        </div>
+
+        <div class="stat-card">
+            <img src="images/icon-planet-type.png" alt="Planet Type" class="stat-icon">
+            <h3 class="stat-label">Planet Type</h3>
+            <p class="stat-value" id="planetType">--</p>
+        </div>
+
+        <div class="stat-card" style="grid-column: 2;">
+            <img src="images/icon-habitability.png" alt="Habitability" class="stat-icon">
+            <h3 class="stat-label">Habitability</h3>
+            <p class="stat-value" id="habitability">--</p>
+        </div>
+    </section>
+
+    <div class="home-btn-container">
+        <a href="index.html"><button>Home</button></a>
+    </div>
+
+    <footer>
+        <div class="footer-left">ExoplanetExplorer</div>
+        <div class="footer-center">
+            <a href="#">Donate</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="footer-right">Publication: 27/7/27 Joel Zuo - FSHS 2026</div>
+    </footer>
+
+   
+    <script src="planet-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
